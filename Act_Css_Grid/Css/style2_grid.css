@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.display2 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width:100vw;
+    height: 100vh;
+}
+    
+.div10 { 
+    text-align: center;
+    align-self: auto;
+    grid-area: 1 / 5 / 7 / 7;
+    background:#5800FF;
+}
+.div11 {
+    text-align: center;
+    align-self: auto; 
+    grid-area: 4 / 1 / 7 / 3;
+    background: #FFC600;
+}
+.div12 {
+    text-align: center;
+    align-self: auto; 
+    grid-area: 4 / 3 / 7 / 5;
+    background: #E900FF;
+}
+.div13 { 
+    text-align: center;
+    align-self: auto;
+    grid-area: 1 / 1 / 4 / 5;
+    background: #000000;
+}

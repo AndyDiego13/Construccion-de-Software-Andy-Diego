@@ -1,0 +1,24 @@
+.grd9
+{
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 150px 200px 200px;
+    gap:10px;
+}
+
+.grd9_1
+{
+    grid-area: 1/1/1/-1;
+    background-color: #a68afa;
+}
+.grd9_2
+{
+    grid-area: 2/1/-1/1;
+    background-color: #f5e77c;
+}
+.grd9_3
+{
+    grid-area: 2/2/2/-1;
+    background-color: #f4c494;
+}

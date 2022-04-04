@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.display6 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width:100vw;
+    height: 100vh;
+}
+
+.div1 { 
+    grid-area: 1 / 7 / 2 / 9;
+    background: #757bc8; 
+}
+.div2 { 
+    grid-area: 1 / 5 / 2 / 7;
+    background: #8187dc; 
+}
+.div3 { 
+    grid-area: 1 / 1 / 2 / 5; 
+    background: #8e94f2;
+}
+.div4 { 
+    grid-area: 2 / 1 / 3 / 3; 
+    background: #9fa0ff;
+}
+.div5 {
+     grid-area: 2 / 3 / 3 / 5; 
+     background: #ada7ff;
+}
+.div6 {
+     grid-area: 2 / 5 / 3 / 7; 
+     background: #bbadff;
+
+}
+.div7 { 
+    grid-area: 3 / 1 / 5 / 5;
+    background: #deaaff; 
+}
+.div8 { 
+    grid-area: 3 / 5 / 4 / 7; 
+    background: #dab6fc;
+}
+.div9 { 
+    grid-area: 4 / 5 / 5 / 7; 
+    background: #c8e7ff;
+}
+.div10 { 
+    grid-area: 3 / 7 / 4 / 9; 
+    background: #c0fdff;
+}
+.div11 { 
+    grid-area: 5 / 1 / 6 / 7; 
+    background: #c09cfa;
+
+}
+.div12 { 
+    grid-area: 5 / 7 / 6 / 9; 
+    background: #c18cf9;
+}
